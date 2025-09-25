@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play 2 Unite - Our Team</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="team.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Three.js Galaxy Background -->
+    <div id="galaxy-bg"></div>
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <!-- Main Content Container -->
+    <div class="content-container">
+        <!-- Header with Logo -->
+        <header id="main-header">
+            <div class="logo-container">
+                <img src="logo.png" alt="Play 2 Unite Logo" class="logo-image">
+                <div class="unit-name">
+                    <h1>COLLEGE EVENTS & ACTIVITIES CLUB</h1>
+                    <h2>Play 2 Unite</h2>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#events">Events</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="index.html#activities">Activities</a></li>
+                    <li><a href="team.html" class="active">Team</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Meet the Play 2 Unite Team</h1>
+                <p class="hero-subtitle">The passionate minds behind unforgettable campus experiences</p>
+            </div>
+        </section>
+
+        <!-- Domain Filter Navbar -->
+        <div class="domain-filter">
+            <button class="domain-btn active" data-domain="all">All</button>
+            <button class="domain-btn" data-domain="leadership">Leadership</button>
+            <button class="domain-btn" data-domain="events">Events</button>
+            <button class="domain-btn" data-domain="finance">Finance</button>
+            <button class="domain-btn" data-domain="marketing">Marketing</button>
+            <button class="domain-btn" data-domain="creative">Creative</button>
+        </div>
+
+        <!-- Team Section -->
+        <section id="team" class="team">
+            <h2 class="section-title" id="team-heading">Our Team</h2>
+            <div class="team-members">
+                <div class="team-member" data-domain="leadership">
+                    <div class="member-image-container">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Club President" class="member-image">
+                    </div>
+                    <h3 class="member-name">Alex Chen</h3>
+                    <p class="member-role">President</p>
+                    <p class="member-bio">Computer Science major with a passion for event planning. Leads Play 2 Unite with strategic vision and dedication to creating memorable experiences.</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="team-member" data-domain="leadership">
+                    <div class="member-image-container">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Vice President" class="member-image">
+                    </div>
+                    <h3 class="member-name">Maya Rodriguez</h3>
+                    <p class="member-role">Vice President</p>
+                    <p class="member-bio">Graphic Design major and event enthusiast. Handles event planning, marketing, and club communications.</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="team-member" data-domain="events">
+                    <div class="member-image-container">
+                        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Events Coordinator" class="member-image">
+                    </div>
+                    <h3 class="member-name">Jordan Kim</h3>
+                    <p class="member-role">Events Coordinator</p>
+                    <p class="member-bio">Business major with a talent for organizing events. Manages our event calendar, logistics, and volunteer coordination.</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="team-member" data-domain="finance">
+                    <div class="member-image-container">
+                        <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="Treasurer" class="member-image">
+                    </div>
+                    <h3 class="member-name">Taylor Smith</h3>
+                    <p class="member-role">Treasurer</p>
+                    <p class="member-bio">Accounting major and event enthusiast. Keeps our finances in order and plans budget for all activities.</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="team-member" data-domain="marketing">
+                    <div class="member-image-container">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Marketing Head" class="member-image">
+                    </div>
+                    <h3 class="member-name">Karan Singh</h3>
+                    <p class="member-role">Marketing Head</p>
+                    <p class="member-bio">Marketing major with creative flair. Handles all promotional activities and social media presence for Play 2 Unite.</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="team-member" data-domain="creative">
+                    <div class="member-image-container">
+                        <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Creative Director" class="member-image">
+                    </div>
+                    <h3 class="member-name">Neha Gupta</h3>
+                    <p class="member-role">Creative Director</p>
+                    <p class="member-bio">Design major with a passion for visual storytelling. Leads all creative aspects of Play 2 Unite's branding and events.</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About Play 2 Unite</h3>
+                <p>Play 2 Unite is the premier student organization at our college dedicated to fostering community, creativity, and memorable experiences through diverse events and activities.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#events">Events</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Block 13, Room 209</p>
+                 <p><i class="fas fa-phone-alt"></i> +91 7518199201</p>
+                <p><i class="fas fa-envelope"></i> play2unite5@gmail.com</p>
+                <p><i class="fas fa-clock"></i> Meeting: Friday 5:00 PM</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Play 2 Unite. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="team.js"></script>
+</body>
+</html>
